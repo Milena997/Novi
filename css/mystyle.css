@@ -1,0 +1,70 @@
+#middle {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-content: center center;
+ }
+ .content{
+    background-color:rgba(255, 255, 255, 0.829);
+    text-align: justify;
+    margin:20px 15px;
+    padding:15px 15px;
+    border-radius: 15px;
+    /*top right bottom left*/
+}
+.content p{
+    margin:15px 25px 15px 25px;
+
+    /*ako su top=bottom i left=right mozemo i samo da pisemo margin: top left
+    u ovom slucaju margin:15px 25px;*/
+}
+.content h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.content img{
+    border:3px rgb(105, 103, 103) dotted;
+    border-radius: 80px;
+     /*ovde smo namestili da imamo ram oko slike sive boje puna linija debljine 3px*/
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#more, #moreTwo, #moreThree {
+    display: none;
+}
+#png{
+    border:none;
+    width:200px;
+}
+
+button{
+    padding:10px 40px;
+    width:55%;
+    margin-left: 90px;
+    font-family: 'noviFont';
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color:  rgba(139, 120, 105, 0.815);
+    color:whitesmoke;
+    border-radius: 2px;
+    border-color:  rgb(105, 8, 89);
+    
+}
+button:hover{
+    color: rgba(128, 97, 72, 0.897);
+    background-color:whitesmoke;
+}
+#myBtnFour{
+    width:30.5%;
+    margin-left: 160px;
+}
+/*
+.imena{
+    margin-left: 90%;
+}
+#sec{
+    text-align:center;
+}*/

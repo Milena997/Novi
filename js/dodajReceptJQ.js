@@ -1,0 +1,1 @@
+$("#forma").get(0).reset()
